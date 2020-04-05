@@ -16,6 +16,15 @@ class _HomeState extends State<Home> {
           child: Container(),
           preferredSize: Size.fromHeight(32.0),
         ),
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.lightGreen, Colors.lightGreen.shade50],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter
+            ),
+          ),
+        ),
       ),
     );
   }
