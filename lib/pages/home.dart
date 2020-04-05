@@ -25,6 +25,17 @@ class _HomeState extends State<Home> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.exit_to_app,
+              color: Colors.lightGreen.shade800,
+            ),
+            onPressed: () {
+              // TODO: Add signOut method
+            },
+          ),
+        ],
       ),
     );
   }
