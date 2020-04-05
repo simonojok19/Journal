@@ -50,6 +50,15 @@ class _HomeState extends State<Home> {
           ),
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        tooltip: 'Add Journal Entry',
+        backgroundColor: Colors.lightGreen.shade300,
+        child: Icon(Icons.add),
+        onPressed: () async {
+          // TODO: Add _addOrEditJournal method
+        },
+      ),
     );
   }
 }
