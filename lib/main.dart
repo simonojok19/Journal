@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Journal',
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
+        primarySwatch: Colors.lightGreen,
         canvasColor: Colors.lightGreen.shade50,
         bottomAppBarColor: Colors.lightGreen
       ),

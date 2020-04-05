@@ -11,6 +11,11 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Journal', style: TextStyle(color: Colors.lightGreen.shade800),),
+        elevation: 0.0,
+        bottom: PreferredSize(
+          child: Container(),
+          preferredSize: Size.fromHeight(32.0),
+        ),
       ),
     );
   }
