@@ -37,6 +37,19 @@ class _HomeState extends State<Home> {
           ),
         ],
       ),
+      bottomNavigationBar: BottomAppBar(
+        elevation: 0.0,
+        child: Container(
+          height: 44.0,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.lightGreen.shade50, Colors.lightGreen],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter
+            )
+          ),
+        ),
+      ),
     );
   }
 }
