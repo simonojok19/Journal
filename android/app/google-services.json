@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "30181579149",
+    "firebase_url": "https://journal-789da.firebaseio.com",
+    "project_id": "journal-789da",
+    "storage_bucket": "journal-789da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30181579149:android:16fd37dbac09f81a35c5c4",
+        "android_client_info": {
+          "package_name": "me.simonojok19.journal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30181579149-r13jbppmpts2nulgvn7uh3j1pcbfisv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvzq23-sBILVLUaj-51dhOJUSS0ZyaCEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30181579149-r13jbppmpts2nulgvn7uh3j1pcbfisv2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "30181579149-gev5maikdah80j2gkdg5habmc5f6jaf9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.simonojok19.journal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
